@@ -3,12 +3,12 @@ import { createWriteStream } from "fs";
 import { routePaths } from "./src/routes.js";
 
 const sitemapStream = new SitemapStream({
-  hostname: "https://josephhansen.dev",
+  hostname: "https://hansenstudios.art",
 });
 
 routePaths.forEach((path) => {
   sitemapStream.write({
-    url: `https://josephhansen.dev${path}`,
+    url: `https://hansenstudios.art${path}`,
     changefreq: "daily",
     priority: 0.3,
   });

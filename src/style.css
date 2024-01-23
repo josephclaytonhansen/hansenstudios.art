@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply no-underline;
+  text-decoration: none !important;
+}
+
+.prose ol {
+  counter-reset: c;
+}
+
+.prose ol li {
+  counter-increment: c;
+}
+
+.prose ol li::before {
+  content: counter(c) ". ";
+}

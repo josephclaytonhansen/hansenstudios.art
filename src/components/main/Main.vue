@@ -1,3 +1,7 @@
-<script setup></script>
+<script setup>
+  const props = defineProps({
+    component: String,
+  })
+</script>
 
-<template></template>
+<template>Hello world!</template>

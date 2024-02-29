@@ -1,25 +1,25 @@
-import { createApp } from "vue";
-import "./style.css";
-import App from "./App.vue";
-import Main from "./components/main/Main.vue";
+import { createApp } from "vue"
+import "./style.css"
+import App from "./App.vue"
+import Main from "./components/main/Main.vue"
 
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router"
 
-import { routes } from "./routes.js";
+import { routes } from "./routes.js"
 
 routes.forEach((route) => {
-  route.component = Main;
-});
+  route.component = Main
+})
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
-});
+})
 
-const app = createApp(App);
+const app = createApp(App)
 
-app.use(router);
+app.use(router)
 
-app.mount("#app");
+app.mount("#app")
 
-export { routes };
+export { routes }

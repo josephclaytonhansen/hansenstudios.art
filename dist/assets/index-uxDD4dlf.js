@@ -28,11 +28,7 @@
     fetch(r.href, o)
   }
 })()
-/**
- * @vue/shared v3.4.15
- * (c) 2018-present Yuxi (Evan) You and Vue contributors
- * @license MIT
- **/ function Wn(e, t) {
+function Wn(e, t) {
   const n = new Set(e.split(","))
   return t ? (s) => n.has(s.toLowerCase()) : (s) => n.has(s)
 }
@@ -149,11 +145,7 @@ const Io =
 function ar(e) {
   return !!e || e === ""
 }
-/**
- * @vue/reactivity v3.4.15
- * (c) 2018-present Yuxi (Evan) You and Vue contributors
- * @license MIT
- **/ let ve
+let ve
 class No {
   constructor(t = !1) {
     ;(this.detached = t),
@@ -813,11 +805,7 @@ const oi = {
 function Ir(e) {
   return dt(e) ? e : new Proxy(e, oi)
 }
-/**
- * @vue/runtime-core v3.4.15
- * (c) 2018-present Yuxi (Evan) You and Vue contributors
- * @license MIT
- **/ function Ge(e, t, n, s) {
+function Ge(e, t, n, s) {
   let r
   try {
     r = s ? e(...s) : e()
@@ -1294,7 +1282,7 @@ function Je(e, t, n, s) {
     c && (nt(), we(c, n, 8, [e.el, u, e, t]), st())
   }
 }
-/*! #__NO_SIDE_EFFECTS__ */ function Vr(e, t) {
+function Vr(e, t) {
   return U(e) ? se({ name: e.name }, t, { setup: e }) : e
 }
 const zt = (e) => !!e.type.__asyncLoader,
@@ -3118,11 +3106,7 @@ function ro(e, t, n) {
       _e(e, t, n))
 }
 const vl = "3.4.15"
-/**
- * @vue/runtime-dom v3.4.15
- * (c) 2018-present Yuxi (Evan) You and Vue contributors
- * @license MIT
- **/ const bl = "http://www.w3.org/2000/svg",
+const bl = "http://www.w3.org/2000/svg",
   El = "http://www.w3.org/1998/Math/MathML",
   We = typeof document < "u" ? document : null,
   Bs = We && We.createElement("template"),
@@ -3437,11 +3421,7 @@ const Ql = ql(zl, [["render", Gl]]),
       return (t, n) => "Hello world!"
     },
   }
-/*!
- * vue-router v4.2.5
- * (c) 2023 Eduardo San Martin Morote
- * @license MIT
- */ const ut = typeof window < "u"
+const ut = typeof window < "u"
 function Jl(e) {
   return e.__esModule || e[Symbol.toStringTag] === "Module"
 }

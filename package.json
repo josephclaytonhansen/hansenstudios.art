@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "prepare": "husky install",
     "precommit": "npm run build && bash minify.sh && rm -rf ../built-hansenstudios-art/assets && cp -r dist/* ../built-hansenstudios-art && node sitemap.js",
-    "buildbot": "node commit.js && cd ../built-hansenstudios-art/ && node ../../hansenstudios.art/commit.js"
+    "buildbot": "node commit.js && cd ../built-hansenstudios-art/ && node ../hansenstudios.art/commit.js"
   },
   "dependencies": {
     "@headlessui/tailwindcss": "^0.2.0",

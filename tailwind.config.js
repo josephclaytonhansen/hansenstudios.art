@@ -3,7 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx,vue}"],
   theme: {
     fontFamily: {
-      sans: ["Fira Sans", "sans-serif"],
+      sans: ["Arsenal", "sans-serif"],
       serif: ["Martel", "serif"],
       monospace: ["Fira Code", "monospace"],
     },

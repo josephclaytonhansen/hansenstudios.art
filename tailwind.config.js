@@ -4,7 +4,7 @@ export default {
   theme: {
     fontFamily: {
       sans: ["Arsenal", "sans-serif"],
-      serif: ["Martel", "serif"],
+      serif: ["Crimson Text", "serif"],
       monospace: ["Fira Code", "monospace"],
     },
     extend: {},

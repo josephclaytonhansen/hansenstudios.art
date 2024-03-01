@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 * {
   margin: 0;
   line-height: calc(1em + 0.5rem);
@@ -89,4 +93,70 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+p {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  font-variant: small-caps;
+}
+
+body :not(.prose) h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-weight: 500;
+  font-variant: small-caps;
+}
+
+body :not(.prose) h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-variant: small-caps;
+}
+
+body :not(.prose) h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+body :not(.prose) h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+body :not(.prose) h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-weight: 400;
+}
+
+body :not(.prose) h6 {
+  font-size: 1rem;
 }

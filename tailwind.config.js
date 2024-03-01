@@ -7,6 +7,37 @@ export default {
       serif: ["Crimson Text", "serif"],
       monospace: ["Fira Code", "monospace"],
     },
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
+      white: "#ffffff",
+      black: "#000000",
+      gray: {
+        default: "#6C6C6C",
+        light: "#E0DCD9",
+        dark: "#2C2C2C",
+      },
+      brown: {
+        default: "#6A4343",
+      },
+      "light-blue": {
+        default: "#77B3CE",
+      },
+      blue: {
+        default: "#3372BB",
+        light: "#77B3CE",
+        muted: "#5175A6",
+      },
+      paper: {
+        default: "E0DCD9",
+        dark: "B3A9B4",
+      },
+      purple: {
+        default: "#363879",
+        dark: "#292E5A",
+        light: "#9A85CB",
+      },
+    },
     extend: {},
   },
   plugins: [

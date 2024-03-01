@@ -5,10 +5,11 @@
 </script>
 
 <template>
+  <div>
   <h1>Hello world! H1</h1>
   <div class="prose">
     <h2>Lorem Ipsum</h2>
-    <p>
+    <p >
       Ac tincidunt vitae semper quis lectus nulla. In vitae turpis massa sed
       elementum tempus. Egestas tellus rutrum tellus pellentesque. Platea
       dictumst quisque sagittis purus sit. Diam in arcu cursus euismod quis
@@ -37,5 +38,5 @@
     blandit turpis cursus in hac habitasse platea dictumst quisque. Ante in nibh
     mauris cursus mattis molestie a iaculis at. Leo vel fringilla est
     ullamcorper eget nulla.
-  </p>
+  </p></div>
 </template>

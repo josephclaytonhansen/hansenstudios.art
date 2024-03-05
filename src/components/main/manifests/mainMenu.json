@@ -1,0 +1,33 @@
+{
+    "menu": {
+        "items": {
+            "home": {
+                "name": "Home",
+                "click": "router.push('/')",
+                "url": "/",
+                "dropdown": false
+            },
+            "about": {
+                "name": "About",
+                "click": "router.push('/about')",
+                "url": "/about",
+
+                "dropdown": true,
+                "items": {
+                    "about1": {
+                        "name": "About 1",
+                        "click": "router.push('/about1')",
+                        "url": "/about1",
+                        "dropdown": false
+                    },
+                    "about2": {
+                        "name": "About 2",
+                        "click": "router.push('/about2')",
+                        "url": "/about2",
+                        "dropdown": false
+                    }
+                }
+            } 
+        }
+    }
+}

@@ -6091,20 +6091,29 @@ function ba() {
 }
 const _a = {
     items: {
-      home: { name: "Home", click: "router.push('/')", url: "/", dropdown: !1 },
+      home: {
+        icon: null,
+        name: "Home",
+        click: "router.push('/')",
+        url: "/",
+        dropdown: !1,
+      },
       about: {
+        icon: null,
         name: "About",
         click: "router.push('/about')",
         url: "/about",
         dropdown: !0,
         items: {
           about1: {
+            icon: null,
             name: "About 1",
             click: "router.push('/about1')",
             url: "/about1",
             dropdown: !1,
           },
           about2: {
+            icon: null,
             name: "About 2",
             click: "router.push('/about2')",
             url: "/about2",

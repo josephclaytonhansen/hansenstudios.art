@@ -1,8 +1,8 @@
 <script setup>
+  import { ChevronDown, ChevronUp } from "lucide-vue-next"
   import { ref, reactive } from "vue"
   import { Popover, PopoverButton, PopoverPanel } from "@headlessui/vue"
   import { useRouter } from "vue-router"
-  import { ChevronDown, ChevronUp } from "lucide-vue-next"
 
   import manifestData from "../../manifests/mainMenu.json"
 
@@ -19,14 +19,6 @@
   const navigate = (url) => {
     router.push(url)
   }
-
-  // Import icons
-  const icons = {}
-  Object.entries(menu).forEach(([key, value]) => {
-    if (value.icon) {
-      icons[value.icon] = require(`lucide-vue-next/icons/${value.icon}.vue`).default
-    }
-  })
 </script>
 
 <template>
@@ -36,7 +28,6 @@
         <PopoverButton as="a" class="cursor-pointer">
           <template v-slot="{ open }">
             {{ item.name }}
-            <component v-if="item.icon" :is="icons[item.icon]" class="w-4 h-4" />
             <ChevronDown v-if="!open" class="w-4 h-4" />
             <ChevronUp v-else class="w-4 h-4" />
           </template>

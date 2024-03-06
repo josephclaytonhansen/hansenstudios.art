@@ -1,8 +1,9 @@
 {
-  "posts": [],
+  "posts": [
+  ],
   "schema": {
     "id": 0,
-    "title": "Lorem ipsum",
+    "title": "New post",
     "author": "John Doe",
     "date": "2016-01-01",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac nunc nec nunc tincidunt fermentum",
@@ -13,6 +14,6 @@
     "word-count": 0,
     "icons": [],
     "tags": [],
-    "slug": "lorem-ipsum"
+    "slug": "/new-post"
   }
 }

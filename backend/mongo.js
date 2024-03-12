@@ -6,7 +6,7 @@ const MONGO_STRING = process.env.MONGO_STRING
 
 const connectWithRetry = async () => {
     console.log('MongoDB connection with retry')
-    return mongoose.connect(MONGO_STRING, { useNewUrlParser: true, useUnifiedTopology: true, dbName: "weasel-backend-dev",retryReads:true, retryWrites:true }).catch((err) => {
+    return mongoose.connect(MONGO_STRING, { useNewUrlParser: true, useUnifiedTopology: true, dbName: "hansenstudios",retryReads:true, retryWrites:true }).catch((err) => {
         console.log('MongoDB connection unsuccessful, retry after 1 seconds.')
         setTimeout(connectWithRetry, 1000)
     })
